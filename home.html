@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Cocina Cartagena</title>   	
+<style>
+body { margin:0;
+      padding: 0;      
+      margin-top: 180px;
+}
+
+img {
+  width: 100%;
+  max-width: 900px;
+  }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+    display: inline-block;    
+    color: gold;
+}
+
+footer { 
+color: black;  
+text-align:center; 
+} 
+
+.header {  
+        width:100%;
+        background-color:rgb(65, 90, 70);
+        height:100px;
+        text-align: center;
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+    
+
+.sidenav {
+  width: 118px;
+  position: fixed;
+  z-index: 1;
+  top: 148px;
+  background: rgb(233, 183, 183);
+  overflow-x: hidden;
+  padding: 5px 4;
+  
+}
+
+.sidenav a {
+  padding: 180px 1px 5px 18px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #031422;
+  display: block;
+  border-color: red;
+  border: 5px
+}
+
+.sidenav a:hover {
+  color: #109e86;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 100px;
+  width: 100%;
+  box-shadow: 1px 1px 7px 1px #e6eef5;
+  position: fixed;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.minilogo {
+  border: 1px;
+  border-radius: 4px;
+  padding: 2px;
+  width: 119px;
+  position: fixed;
+	top:0; 
+	left:0; 
+
+}
+.main {
+  padding: 20px;
+  margin: 100px;
+  height: 1500px;
+  text-align:center;
+  background-color: rgb(153, 122, 122);  
+  border-radius: 2%;
+  }
+
+.food-img {
+  width: 30vw;
+  height: 18vw;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.food-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.item {
+  margin: 1rem 1rem;
+}
+
+.food-description {
+  color: #f8f8f8;
+  width: 70%;
+  font-weight: 300;
+
+}
+
+#shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0px 0px 0px 0px hsl(0, 87%, 30%);
+}
+</style>
+</head>
+<body>
+<div class="header"> <h1><i>~ Cocina Cartagena ~</i></h1>
+    <img class="minilogo" src="logo (2).png">
+    </div>       
+
+
+<div class="navbar">
+  <a href="#menu">Menu</a>
+  <a href="booking.html">Reservations</a>
+  <a href="#about">About</a>
+</div>
+
+<div class="main" id="shadow">
+  <h1>Our Local Favourites</h1>
+  <div class="menu">
+    
+    <div class="item">
+      <h3 class="food-name">Pollo</h3>
+      <img src="food3.png" class="food-img">
+      <p class="food-description">Lorem Ipsum</p>  
+    </div>
+    <div class="item">
+      <h3 class="food-name">Seafood</h3>
+      <img src="food1.png" class="food-img">
+      <p class="food-description">Lorem Ipsum</p>   
+    </div>
+    <div class="item">
+      <h3 class="food-name">Empanadas</h3>
+      <img src="empanadas.png" class="food-img">
+      <p class="food-description">Lorem Ipsum</p>   
+    </div>
+    <div class="item">
+      <h3 class="food-name">Grilled Meat</h3>
+      <img src="food2.png" class="food-img">
+      <p class="food-description">Lorem Ipsum</p>   
+    </div>
+  
+  </div>
+
+</div>
+<div class="sidenav">
+  <a href="#services">Services</a>
+  <a href="#catering">Catering</a>
+  <a href="#takeout">Takeout</a>
+  <a href="#dinein">Dine-in</a>
+</div>
+
+
+
+
+</body>
+<footer>
+  <p>Copyright: Cocina Cartagena</p>  
+</footer>
+</html>

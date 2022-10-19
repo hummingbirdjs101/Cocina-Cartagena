@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cocina Cartagena</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png">
+  </header>
+  <h1>Come dine with us!</h1>
+  <div class=""header>
+
+  </div>
+  <main>
+    <div class="navbar">
+      <a href="home.html">Main</a>
+      <a href="booking.html">Reservations</a>
+      <a href="#about">About</a>
+    </div>
+
+    <div class="contact-form" method="post" action="">
+    <form id="contact-form">
+      <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+      <br>
+      <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+      <br>  
+      <input name="booking-date" type="date" class="form-control" placeholder="Date" required>
+      <br>                  
+      <input name="people" type="number" class="form-control" placeholder="Number Of People" min="1" max="8" required>
+      <br> 
+      <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea> <br>
+      <label for="agree"> <p>I agree to the cancellation policy </p></label>
+      <input type="checkbox" id="agree" class="form-control" name="agree" required>     
+      <input type="submit" class="form-control submit" value="SEND MESSAGE">            
+    </form>
+   </div> 
+  </main>
+</body>
+
+</html>
