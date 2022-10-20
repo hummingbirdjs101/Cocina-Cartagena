@@ -6,26 +6,24 @@
   <meta property="og:title" content="Our Menu">
   <meta property="og:type"  content="website">
   <meta property="og:image" content="logo.png">
-  <meta property="og:url"   content="https://littlelemon/">
-  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:url"   content="https://hummingbirdjs101.github.io/Cocina-Cartagena/">
+  <meta property="og:description" content="Cocina Cartagena is a family-owned Colombian restaurant, focused on traditional recipes served with a modern twist.">
   <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="Little Lemon">
+  <meta property="og:site_name" content="Cocina Cartagena">
 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="logo.png">
-  </header>
   <h1>Come dine with us!</h1>
   <div class=""header>
+    <img class="logo" src="logo.png">
 
   </div>
   <main>
     <div class="navbar">
-      <a href="index.html">Main</a>
-      <a href="booking.html">Reservations</a>
-      <a href="#about">About</a>
+      <a href="index.html" class="flex-item">Main</a>
+      <a href="booking.html" class="flex-item">Reservations</a>
+      <a href="#about" class="flex-item">About</a>
     </div>
 
     <div class="contact-form" method="post" action="">
@@ -39,9 +37,11 @@
       <input name="people" type="number" class="form-control" placeholder="Number Of People" min="1" max="8" required>
       <br> 
       <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea> <br>
-      <label for="agree"> <p>I agree to the cancellation policy </p></label>
-      <input type="checkbox" id="agree" class="form-control" name="agree" required>     
-      <input type="submit" class="form-control submit" value="SEND MESSAGE">            
+      <div class="container">
+      <div><label for="agree"> <p>I agree to the cancellation policy </p></label></div>
+      <div><input type="checkbox" id="agree" class="form-control" name="agree" required></div> 
+      <input type="submit" class="form-control submit" value="SEND MESSAGE">  
+      </div>          
     </form>
    </div> 
   </main>
